@@ -14,7 +14,6 @@ public class DeleteBookTests : BaseTest
     public void DeleteBook_ValidId_Returns204()
     {
         var createdBook = CreateBookAndTrack(BuildBookRequest(title: "Book To Delete"));
-        // Remove from cleanup list - we'll delete it manually in this test
         createdBookIds.Remove(createdBook.id);
 
         var response = apiClient.DeleteBook(createdBook.id);

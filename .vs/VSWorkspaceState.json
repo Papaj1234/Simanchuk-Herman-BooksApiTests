@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BooksApiTests",
+    "\\BooksApiTests\\Config",
+    "\\BooksApiTests\\Models",
+    "\\BooksApiTests\\Tests"
+  ],
+  "SelectedNode": "\\BooksApiTests\\Config\\AppSettings.cs",
+  "PreviewInSolutionExplorer": false
+}

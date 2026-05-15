@@ -28,7 +28,6 @@ public class GetAllBooksTests : BaseTest
     [AllureSeverity(SeverityLevel.normal)]
     public void GetAllBooks_EachBookContainsRequiredFields()
     {
-        // Ensure at least one book exists
         var createdBook = CreateBookAndTrack(BuildBookRequest(title: "Field Validation Book"));
 
         var response = apiClient.GetAllBooks();
